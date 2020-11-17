@@ -1,0 +1,79 @@
+ <!-- end header -->
+      <div class="about-bg">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="abouttitle">
+                     <h2>Our Books</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Books -->
+               <div>
+            <h1>List of books</h1>
+            <ul class="thumbnails">
+            {{#each books}}
+            <li class="span4">
+                <div class="thumbnail">
+
+                <a class="zoomTool" href="product_details.html" title="add to cart" style="display: none;"><span class="icon-search"></span> QUICK VIEW</a>
+                <a href="product_details.html"><img src="{{cover}}" alt=""></a>
+                <div class="caption cntr">
+                    <p>{{title}}</p>
+                    <p><strong> {{basePrice}} VND</strong></p>
+                    <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+                    <div class="actionList">
+                    <a class="pull-left" href="#">Add to Wish List </a>
+                    <a class="pull-left" href="#"> Add to Compare </a>
+                    </div>
+                    <br class="clr">
+                </div>
+                </div>
+            </li>
+            {{/each}}
+            </ul>
+        </div>
+      <div class="Books">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <span>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row box">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/book-1.jpg" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/book-2.jpg" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                  <div class="book-box">
+                     <figure><img src="images/book-1.jpg" alt="img"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 offset-md-3">
+                  <p>magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris</p>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="read-more">
+                        <a href="#">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <!-- end Books -->
